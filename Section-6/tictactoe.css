@@ -16,8 +16,11 @@ td {
 .square {
   border: black 2px solid;
 }
-body {
+
+table {
+  margin: auto;
 }
 
 h1 {
+  text-align: center;
 }
