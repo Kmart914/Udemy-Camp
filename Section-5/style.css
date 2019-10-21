@@ -1,0 +1,14 @@
+h1 {
+  color: red;
+  /* border-width: 5px;
+  border-color: purple;
+  border-style: solid; */
+  border: 2px solid blue;
+
+}
+
+
+body {
+  /* background: url(https://www.mccallfarms.com/wp-content/uploads/2015/11/banner-wood-grain.jpg) */
+background: gray;
+}

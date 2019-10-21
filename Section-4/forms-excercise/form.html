@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Register</h1>
+<form>
+    <div>
+      <label for="fName">First Name:</label>
+      <input id="fName" type="text" placeholder="John" name="first name" value="">
+
+      <label for="lName">Last Name:</label>
+      <input id="lName" type="text" placeholder="Smith" name="last name" value="">
+    </div>
+    <div>
+      <label for="male">Male</label>
+      <input id="male" type="radio" name="genderChoice" value="MALE">
+
+      <label for="female">Female</label>
+      <input id="female" type="radio" name="genderChoice" value="FEMALE">
+
+      <label for="other">Other</label>
+      <input id="other" type="radio" name="genderChoice" value="OTHER">
+    </div>
+    <div>
+      <label for="username">Email:</label>
+        <input id="username" type="Email" placeholder="Email" name="Email" required>
+      <label for="password">Password:</label>
+        <input id ="password" type="password" placeholder="password" name="Password" minlength="5" maxlength="10" required>
+    </div>
+    <div>
+      <label for="birthday">Birthday:</label>
+      <select id="birthday" placeholder="month" name="birthday">
+        <option value="JAN">January</option>
+        <option value="SEP">September</option>
+        <option value="OCT">October</option>
+      </select>
+      <select id="birthday" placeholder="day" name="birthday">
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+      </select>
+      <select id="birthday" placeholder="year" name="birthday">
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+      </select>
+    </div>
+    <div>
+      <label for="terms">I agree to the terms and conditions</label>
+      <input id="terms" type="radio" name="terms" value="Agree" required="required">
+    </div>
+    <button>Submit</button>
+  </form>
+  </body>
+</html>
