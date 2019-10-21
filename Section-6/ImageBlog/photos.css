@@ -1,0 +1,12 @@
+img {
+  width: 30%;
+  float: left;
+  padding: 1.66%;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-bottom: #f1f1f1 1px solid;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
