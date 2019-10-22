@@ -8,11 +8,16 @@
   background: #394279;
 }
 
-.galleryPhoto {
-  height: 200px;
-  width: 350px;
+.img-thumbnail {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 body {
   margin-top: 100px;
+}
+
+.jumbotron {
+  background: #ecf0f1;
+  color: #2c3e50;
 }
